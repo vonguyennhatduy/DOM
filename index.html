@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="mt-3">
+                <h2>BÀI TẬP TÍNH LƯƠNG NHÂN VIÊN</h2>
+                <input type="text" class="form-control my-4" id="txtTienLuong" placeholder="Nhập lương một ngày">
+                <input type="text" class="form-control my-4" id="txtSoNgayLam" placeholder="Nhập số ngày làm">
+                <button id="btnTinhLuong" class="btn btn-danger">Tính lương</button>
+               
+                <div class="alert alert-success my-4" id="txtAnswer">
+                </div>
+            </div>
+            <div class="mt-3">
+                <h2>BÀI TẬP TÍNH TRUNG BÌNH CỘNG 5 SỐ</h2>
+                <input type="text" class="form-control my-4" id="txtSoThuNhat" placeholder="Nhập số thứ 1">
+                <input type="text" class="form-control my-4" id="txtSoThuHai" placeholder="Nhập số thứ 2">
+                <input type="text" class="form-control my-4" id="txtSoThuBa" placeholder="Nhập số thứ 3">
+                <input type="text" class="form-control my-4" id="txtSoThuTu" placeholder="Nhập số thứ 4">
+                <input type="text" class="form-control my-4" id="txtSoThuNam" placeholder="Nhập số thứ 5">
+
+                <button id="btnTrungBinh" class="btn btn-danger">Tính trung bình</button>
+               
+                <div class="alert alert-success my-4" id="ketQuaTinhTrungBinh">
+                </div>
+            </div>
+            <div class="mt-3">
+                <h2>BÀI TẬP QUY ĐỔI TIỀN</h2>
+                <input type="text" class="form-control my-4" id="txtTienUSD" placeholder="Nhập số tiền USD">
+                <button id="btnTien" class="btn btn-danger">Quy đổi tiền</button>
+               
+                <div class="alert alert-success my-4" id="ketQuaQuyDoi">
+                </div>
+            </div>
+            <div class="mt-3">
+                <h2>BÀI TẬP TÍNH DIỆN TÍCH , CHU VI HÌNH CHỮ NHẬT</h2>
+                <input type="text" class="form-control my-4" id="txtChieuDai" placeholder="Nhập chiều dài">
+                <input type="text" class="form-control my-4" id="txtChieuRong" placeholder="Nhập chiều rộng">
+                <button id="btncalc" class="btn btn-danger">Tính</button>
+               
+                <div class="alert alert-success my-4" id="txtResult">
+                </div>
+            </div>
+            <div class="mt-3">
+                <h2>BÀI TẬP TÍNH TỔNG HAI KÝ SỐ</h2>
+                <input type="text" class="form-control my-4" id="txtSoCoHaiChuSo" placeholder="Nhập số có hai chữ số">
+                <button id="btnTinhTong" class="btn btn-danger">Tính Tổng</button>
+               
+                <div class="alert alert-success my-4" id="ketQuaTong">
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+
+        <script src="index.js"></script>
+
+    </body>
+</html>
